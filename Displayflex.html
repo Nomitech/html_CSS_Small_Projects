@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WEB Layout</title>
+        <style>
+            header{
+                background-color: rgb(151, 107, 48);
+                width: 80%;
+                height: 70px;
+                margin: auto;
+                font-size: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .main{
+                border: 1px solid;
+                width: 80%;
+                margin: auto;
+                display: flex;
+                margin-top: 10px;
+                font-size: 25px;
+            }
+            .firstdiv{
+                background-color: aqua;
+                width: 70%;
+                height: 500px;
+                margin-right: 5px;
+                display: flex;
+                justify-content: space-evenly;
+                flex-wrap: wrap;
+            
+            }
+            .seconddiv{
+                background-color: blueviolet;
+                width: 30%;
+                height: 500px;
+            }
+            .firstchild{
+                width: 100px;
+                height: 100px;
+                background-color: rgb(255, 0, 255);
+                margin: 10px;
+                border-radius: 15px;
+            }
+            footer{
+                background-color: rgb(151, 107, 48);
+                width: 80%;
+                height: 70px;
+                margin: auto;
+                margin-top: 10px;
+                font-size: 25px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <header>This is my Heading</header>
+            <div class="main">
+                <div class="firstdiv">
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                    <div class="firstchild"></div>
+                </div>
+            
+                <div class="seconddiv">mini</div>
+            </div>
+            <footer>This is my Footer</footer>
+        </section>
+    </body>
+</html>

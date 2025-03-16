@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Dropdown list</title>
+		<style type="text/css">
+			/*div{
+				background-color: rgba(0, 0, 0, 0.8);
+				width: 150px;
+				border: 1px solid;
+				color: skyblue;
+				font-weight: bold;
+				text-align: center;
+				font-size: 15px;
+
+			}
+			div ul li{
+				list-style-type: none;
+				border: 1px solid;
+				line-height: 20px;
+				display: none;
+
+			}
+			div:hover li{
+				display: block;
+			}
+			*{
+				margin: 0px;
+				padding: 0px;
+			}*/
+			
+			/*Multiple Dropdown*/
+			div ul li{
+				list-style-type: none;
+				float: left;
+				width: 120px;
+				height: 30px;
+				background-color: rgba(0, 120, 180, 0.5);
+				line-height: 30px;
+				color: black;
+			}
+			div ul li:hover{
+				background-color: rgba(0, 0, 200, 0.9);
+				color: yellow;
+			}
+			div ul li ul{
+				display: none;
+			}
+			div ul li:hover > ul{
+				display: block;
+			}
+			*{
+				margin: 0px;
+				padding: 0px;
+			}
+			div ul li ul li{
+				display: inline-block;
+				position: relative;
+			}
+			div ul li ul li ul{
+				position: absolute;
+				left: 120px;
+				top: 0px;
+			}
+
+			
+		</style>
+	</head>
+	<body>
+		<!-- <h1>Dropdown list</h1>
+		<div>
+			Mobiles
+			<ul>
+				<li>Iphone</li>
+				<li>Samsung</li>
+				<li>Huwawai</li>
+				<li>Oppo</li>
+			</ul>
+		</div><br><br> -->
+		<h1>Multiple Dropdown list</h1>
+		<div>
+			<ul>
+				<li>Mobiles
+					<ul>
+						<li>Vivo</li>	
+						<li>iphone</li>
+						<li>Samsung</li>
+					</ul>
+				</li>
+					
+			</ul>
+			<ul>
+				<li>Laptops
+					<ul>
+						<li>Hp</li>	
+						<li>Lenovo</li>
+						<li>Dell</li>
+					</ul>
+				</li>
+									
+			</ul>
+			<ul>
+				<li>Appliances
+					<ul>
+						<li>TV</li>	
+						<li>LED</li>
+						<li>Oven
+							<ul>
+								<li>Micro Oven</li>
+								<li>Large Oven</li>
+								<li>Medium Oven</li>
+							</ul>
+						</li>
+							
+					</ul>
+				</li>
+
+			</ul>
+		</div>
+	</body>
+</html>
